@@ -11,7 +11,7 @@ const Header = () => {
           <h1
             className="text-2xl font-semibold"
             aria-label="App Name">
-            NSP App
+            Secure Auth
           </h1>
         </Link>
 
