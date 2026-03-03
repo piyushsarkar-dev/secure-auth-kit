@@ -46,7 +46,7 @@
     "node": ">=22.x.x",
     "npm": ">=11.x.x"
   },
-  "author": "Saikat Sardar",
+  "author": "Piyush Sarkar",
   "license": "MIT",
   "homepage": "https://github.com/MrSaikatS/nextjs-starter-frontend#readme"
 }
