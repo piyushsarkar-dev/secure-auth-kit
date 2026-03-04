@@ -1,3 +1,10 @@
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/shadcnui/card";
+import Login from "@/components/ui/Login";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,7 +14,20 @@ export const metadata: Metadata = {
 };
 
 const page = () => {
-  return <section className="grid h-[90dvh] place-items-center"></section>;
+  return (
+    <section className="grid h-[90dvh] place-items-center">
+      <Card className="w-xs">
+        <CardHeader>
+          <CardTitle className="grid place-items-center text-2xl">
+            Secure Auth Kit
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <Login />
+        </CardContent>
+      </Card>
+    </section>
+  );
 };
 
 export default page;
