@@ -15,7 +15,7 @@ const Login = () => {
         <div className="space-y-2">
           <label>Password</label>
           <Input
-            type="email"
+            type="password"
             placeholder="Enter Your Password"></Input>
           <Button
             type="submit"
