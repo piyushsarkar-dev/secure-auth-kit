@@ -19,7 +19,7 @@ const page = () => {
       <Card className="w-xs">
         <CardHeader>
           <CardTitle className="grid place-items-center text-2xl">
-            Secure Auth
+            Secure Auth Kit
           </CardTitle>
         </CardHeader>
         <CardContent>
