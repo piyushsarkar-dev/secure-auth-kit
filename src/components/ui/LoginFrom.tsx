@@ -1,5 +1,5 @@
 const LoginFrom = () => {
-  return <section>Enter</section>;
+  return <section></section>;
 };
 
 export default LoginFrom;
