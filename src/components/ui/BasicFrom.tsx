@@ -1,5 +1,5 @@
 const BasicFrom = () => {
-  return <div>Enter</div>;
+  return <section></section>;
 };
 
 export default BasicFrom;
