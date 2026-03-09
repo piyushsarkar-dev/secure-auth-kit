@@ -12,14 +12,14 @@ const BasicFrom = () => {
       email: "",
     },
   });
-
-  const formHandeler = (fData: MainloginFromSceamType) => {
+  const formHandlar = (fData: MainloginFromSceamType) => {
     console.log(fData);
   };
+
   return (
     <section>
       <form
-        onSubmit={handleSubmit(formHandeler)}
+        onSubmit={handleSubmit(formHandlar)}
         className=""
         noValidate></form>
     </section>
