@@ -7,7 +7,7 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Secure Auth kit",
+  title: "Register || Page",
   description:
     "Modern frontend authentication UI with login and register forms built using Next.js.",
 };
@@ -15,11 +15,12 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <section className="grid h-[90dvh] place-items-center">
+      {" "}
       <Card className="w-full max-w-sm">
         <CardHeader>
           <CardTitle>Login</CardTitle>
         </CardHeader>
-        <CardContent>Login Page</CardContent>
+        <CardContent>Register Page</CardContent>
       </Card>
     </section>
   );
