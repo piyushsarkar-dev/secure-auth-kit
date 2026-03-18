@@ -24,11 +24,9 @@ const RegisterForm = () => {
     mode: "all",
   });
 
-  const notify = () => toast.success("Registration successful!");
-
   const registerHandler = (register: registerFormSchemaType) => {
     setRegister(register);
-    notify();
+    toast.success("Register Sucess");
     reset();
     push("/");
   };
