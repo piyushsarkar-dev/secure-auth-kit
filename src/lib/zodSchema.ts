@@ -1,6 +1,10 @@
 import { z } from "zod";
 export const resgisterSchema = z.object({
-  fullName: z.string().min(2, { error: "Atlist 2 Charcter" }),
+  fullName: z
+    .string()
+    .min(2, { error: "Atlist 2 Charcter" })
+    .max(32, { error: "The Name Should Be Under 32 Charchters" })
+    .trim(),
   email: z.email({ error: "Invalid Email Adress" }),
   password: z
     .string()
