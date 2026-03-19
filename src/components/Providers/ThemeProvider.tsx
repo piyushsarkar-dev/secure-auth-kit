@@ -10,7 +10,6 @@ const ThemeProvider = ({ children, ...props }: ThemeProviderProps) => {
   return (
     <NextThemesProvider {...props}>
       {children}
-
       <ReactTostify />
     </NextThemesProvider>
   );

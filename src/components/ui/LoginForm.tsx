@@ -41,7 +41,7 @@ const LoginForm = () => {
         toast.error(`Invalid Email Adress And Pasword`);
       } else {
         if (register.email !== login.email) {
-          console.error(`Email Adress Not exist`);
+          toast.error(`Email Adress Not exist`);
         }
         if (register.password !== login.password) {
           toast.error(`Password Didnt Match`);
@@ -81,6 +81,7 @@ const LoginForm = () => {
             <Input
               {...field}
               id={field.name}
+              type="password"
               aria-invalid={fieldState.invalid}
               placeholder="Enter Your Password"
               autoComplete="off"

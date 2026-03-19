@@ -81,6 +81,7 @@ const RegisterForm = () => {
             <Input
               {...field}
               id={field.name}
+              type="password"
               aria-invalid={fieldState.invalid}
               placeholder="Enter Your Password"
               autoComplete="new-password"
