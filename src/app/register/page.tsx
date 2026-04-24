@@ -1,4 +1,4 @@
-import Login from "@/components/customui/Login";
+import Register from "@/components/customui/Register";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <section className="grid h-[90dvh] place-items-center">
-      <Login />
+    <section>
+      <Register />
     </section>
   );
 };
