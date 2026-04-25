@@ -1,4 +1,4 @@
-import Login from "@/components/customui/Login";
+import Register from "@/components/customui/Register";
 import {
   Card,
   CardContent,
@@ -17,10 +17,10 @@ const page = () => {
     <section className="grid h-[90dvh] place-items-center">
       <Card className="w-sm">
         <CardHeader>
-          <CardTitle className="text-center">Welcome Back</CardTitle>
+          <CardTitle className="text-center">Create An Acount</CardTitle>
         </CardHeader>
         <CardContent>
-          <Login />
+          <Register />
         </CardContent>
       </Card>
     </section>
